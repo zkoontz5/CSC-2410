@@ -10,6 +10,8 @@
    How to Run: 
 
    ./smaller ; echo $?
+
+   ARM assembly program to find the smaller number of two integer values (stored in r1 and r2).
 */
 
 .global main 
