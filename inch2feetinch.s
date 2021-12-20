@@ -6,6 +6,9 @@ CSC-2410
 To compile:
 as -o inch2feetinch.o inch2feetinch.s
 gcc -o inch2feetinch inch2feetinch.o
+
+Description:
+ARM assembly program to convert inches into feet
 */
 
 
