@@ -11,6 +11,7 @@
 
    ./smaller ; echo $?
 
+   Description: 
    ARM assembly program to find the smaller number of two integer values (stored in r1 and r2).
 */
 
