@@ -16,24 +16,24 @@
 
 main:
     
-    mov     r1, #35
+    mov r1, #35
 
-    cmp     r1, #30
-    blt     invalNum
+    cmp r1, #30
+    blt invalNum
     
-    cmp     r1, #39
-    bgt     invalNum
+    cmp r1, #39
+    bgt invalNum
 
-    b   valNum
+    b valNum
 
 valNum:
-    sub     r2, r1, #30
-    mov     r0, r2
-    b   end
+    sub r2, r1, #30
+    mov r0, r2
+    b end
 
 invalNum:
-    mov     r0, #50
-    b   end
+    mov r0, #50
+    b end
 
 end:
     bx lr
