@@ -10,6 +10,9 @@
    How to Run:
 
    ./ascii ; echo $?
+   
+   Description:
+   ARM assembly program to find the numerical digit of an Ascii code n (stored in r0) if 30<=n<=39.
 */
 
 .global main
