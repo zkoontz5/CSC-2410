@@ -12,6 +12,8 @@ gcc -o evenSum evenSum.o
 To run:
 ./evenSum; echo $?
 
+Description:
+ARM assembly program to calculate the sum of even numbers in the range of [0, 22].
 */
 
 .global main
