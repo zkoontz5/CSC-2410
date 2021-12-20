@@ -10,6 +10,9 @@
    How to Run: 
 
    ./prog ; echo $?
+
+   Description:
+   ARM assembly program to calculate x%y.
 */
 
 .global main 
